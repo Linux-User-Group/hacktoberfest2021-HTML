@@ -9,7 +9,7 @@ body {
 
 .view{
   background-color: white;
-  color: #c6009b;
+  color: #ec8e00e5;
   border-radius: 5px;
   padding: 10px;
   font-weight: bold;
@@ -17,7 +17,7 @@ body {
 
 .btn{
   border: none;
-  background-color: #9500eb ;
+  background-color: #f8bb12 ;
   width: 80px;
   font-size: medium;
   color: white;
@@ -29,7 +29,7 @@ body {
 .smallbtn{
   border: none;
   width: 100px;
-  background-color: #eb00c4 ;
+  background-color: #ebb400 ;
   font-size: 15px;
   color: white;
   border-radius: 15px;
@@ -71,14 +71,14 @@ h1, h2, h3, h4{
 }
 
 h2, h3, h4 {
-  color: #c6009b;
+  color: #ec8e00e5;
 }
 
 footer {
   opacity: 0.7;
   padding: 20px;
   color: white;
-  background-color: #c6009b;
+  background-color: #ec8e00e5;
   text-align: center;
   font-weight: bold;
 }
@@ -122,7 +122,7 @@ nav a:hover {
   opacity: 0.7;
   font-size: 20px;
   padding: 60px;
-  background-color: #eb00cc;
+  background-color: #eb9900;
   text-align: center;
   color: white;
 }
@@ -144,7 +144,7 @@ nav {
   max-width: 100%;
   margin: 0 auto;
   text-align: right;
-  background-color: #c6009b;
+  background-color: #ec8e00e5;
   padding: 5px;
   top: 0; 
   position: sticky;
