@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manajemen Hotel Online</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <script src="assets/script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="bgim">
+            <div class="jumbotron">
+                <img src="assets/image/logo2.png" alt="" >
+                <h1>Baratheon Hotel</h1>
+                <p>Di sini Kami menawarkan Nirwana pada Anda</p>
+            </div>
+        </div>
+            <nav>
+                
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="booking.html" class="view">Booking</a></li>
+                    <li><a href="resto.html">Restaurant</a></li>
+                    <li><a href="overview.html">Overview</a></li>
+                    <li><a href="login.html" id="login">Login</a></li>
+                </ul>
+            </nav>
+    </header>
+    <div class="container-satu">
+
+        
+        <div class="sidebar-satu">
+            <article class="profile box">
+                <header class="reserv">
+                    <h2>Reservation</h2>
+                    </header>
+                    <section>
+                            <table border="0" cellspacing="" cellpadding="5">
+                            <tr>
+                                <td><b>Check In</b></td>
+                                <td><input type="date" name="checkin" id="checkin"></td>
+                            </tr>
+                            <tr>
+                                <td><b>Check Out</b></td>
+                                <td><input type="date" name="checkout" id="checkout"></td>
+                            </tr>
+                            <tr>
+                                <td><b>Room Type</b></td>
+                                <td id="roomtype">
+                                    <select id="room" name="room" onclick="room()">
+                                        <option value="A/C">A/C</option>
+                                        <option value="Non-A/C">Non-A/C</option>
+                                    </select>
+                                    <select id="type" name="type">
+                                        <!-- <option value="Single">Single</option>
+                                        <option value="Double">Double</option>
+                                        <option value="Three">Three</option> -->
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <button type="submit" class="submit btn" id="submit">Submit</button>
+                                    <button type="reset" class="reset" id="reset">Reset</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Chat</b></td>
+                                <td><textarea id="chat" name="chat" rows="4" cols="30"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <button type="submit" class="submitchat btn" id="submitchat">Submit</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Feedback</b></td>
+                                <td><textarea id="feed" name="feed" rows="4" cols="30"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <button type="submit" class="submitfeed btn" id="submitfeed">Submit</button>
+                                </td>
+                            </tr>
+                        </table>
+                    </section>
+            </article>
+        </div>
+        <div class="kolom-utama">
+            <article id="ac" class="box">
+                <center>
+                    <h2>Booking</h2>
+                                <table border="0" cellspacing="0" cellpadding="15">
+                                    <tr>
+                                        <td><b>Nama</b></td>
+                                        <td><input type="text" name="nama" id="nama"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>Email</b></td>
+                                        <td><input type="text" name="email" id="email"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>Phone Number</b></td>
+                                        <td><input type="text" name="checkin" id="checkin"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>Check In</b></td>
+                                        <td><input type="date" name="phone" id="phone"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>Check Out</b></td>
+                                        <td><input type="date" name="checkout" id="checkout"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>Room Type</b></td>
+                                        <td id="roomtype">
+                                            <select id="roombook" name="room" onclick="roombook()">
+                                                <option value="A/C">A/C</option>
+                                                <option value="Non-A/C">Non-A/C</option>
+                                            </select>
+                                            <select id="typebook" name="type">
+                                                <!-- <option value="Single">Single</option>
+                                                <option value="Double">Double</option>
+                                                <option value="Three">Three</option> -->
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>
+                                            <button type="submit" class="submit btn" id="submit">Submit</button>
+                                            <button type="reset" class="reset" id="reset">Reset</button>
+                                        </td>
+                                    </tr>
+                                </table>
+                    </center>
+            </article> 
+        </div>
+        <div class="sidebar-dua box">
+                <h2>Dishes</h2>
+                <div class="container-empat">
+                    <div class="card">
+                        <img src="assets/image/dish1.png" class="featured-image" alt="geografis">
+                        <div class="content">
+                            <p>Mashed Potato Risotto, by Chef Abu Hanif</p>
+    
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/image/dish2.png" class="featured-image" alt="geografis">
+                        <div class="content">
+                            <p>The Hot Brown, Signature dish by Chef Fred Schmidt</p>
+    
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/image/dish3.png" class="featured-image" alt="geografis">
+                        <div class="content">
+                            <p>Tenderloin Steak, with Barbeque Sauce</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <main>
+    </main>
+<div class="bgim">
+    <footer>
+        <p>Baratheon Hotel &#169; 2020, Denny Putra Y.P.</p>
+    </footer>
+</div>
+    <!-- To Make star <h4> &#9733;</h4> -->
+    </body>
+</html>

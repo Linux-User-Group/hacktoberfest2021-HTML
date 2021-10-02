@@ -1,0 +1,48 @@
+body {
+
+    margin: 0;
+    padding: 0;
+  }
+
+header {
+    display: inline;
+  }
+
+nav {
+    display: flex;
+    /* properti pendukung */
+    flex-direction: column;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: right;
+    background-color: #e49144;
+    padding: 5px;
+    top: 0; 
+    position: sticky;
+    z-index: 99999;
+  }
+
+  nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 30px;
+  }
+
+  nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+  }
+  
+  nav a:hover {
+    font-weight: bold;
+  }
+
+  .active{
+    background-color: white;
+    color: #e49144;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+  }

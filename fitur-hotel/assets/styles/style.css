@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Tera&display=swap');
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.view{
+  background-color: white;
+  color: #ec8e00e5;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.btn{
+  border: none;
+  background-color: #f8bb12 ;
+  width: 80px;
+  font-size: medium;
+  color: white;
+  border-radius: 15px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.smallbtn{
+  border: none;
+  width: 100px;
+  background-color: #ebb400 ;
+  font-size: 15px;
+  color: white;
+  border-radius: 15px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.btn:hover, .reset:hover, .smallbtn:hover{
+  font-weight: bold;
+
+}
+
+.btn:focus, .reset:focus, .smallbtn:focus{
+  font-weight: normal;
+}
+
+.reset{
+  border: none;
+  width: 80px;
+  background-color: red ;
+  font-size: medium;
+  color: white;
+  border-radius: 15px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+header {
+  display: inline;
+}
+
+main {
+  padding: 20px;
+  overflow: auto;
+}
+
+h1, h2, h3, h4{
+  font-family: 'Lexend Tera', sans-serif;
+}
+
+h2, h3, h4 {
+  color: #ec8e00e5;
+}
+
+footer {
+  opacity: 0.7;
+  padding: 20px;
+  color: white;
+  background-color: #ec8e00e5;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.jumbotron img{
+  height :200px;
+  width : 250px;
+  margin-bottom: -30px;
+}
+
+
+
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+.profile header {
+  text-align: center;
+}
+
+.featured-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.profile img {
+  width: 200px;
+}
+
+.jumbotron {
+  opacity: 0.7;
+  font-size: 20px;
+  padding: 60px;
+  background-color: #eb9900;
+  text-align: center;
+  color: white;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 30px;
+}
+
+.bgim{
+  background-image: url(../image/bg.png);
+}
+
+nav {
+  display: flex;
+  /* properti pendukung */
+  flex-direction: column;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: right;
+  background-color: #ec8e00e5;
+  padding: 5px;
+  top: 0; 
+  position: sticky;
+  z-index: 99999;
+}
+
+
+
+/* index.html */
+
+
+.box {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+#content {
+  float: right;
+  width: 65%;
+}
+
+aside {
+  float: left;
+  width: 35%;
+  padding-right: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container-empat{
+  max-width: 800px;
+  margin: 50px auto;
+
+}
+.container-lima{
+  max-width: 800px;
+  margin: 50px auto;
+  display: flex;
+}
+
+
+.card{
+  border: 1px solid #aaa;
+  border-radius: 10px;
+  background-color: rgb(247, 247, 247);
+  overflow: hidden;
+  margin: 10px;
+  flex: 1;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.card .content{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+
+
+/* Akhir index.html */
+
+
+
+
+/* booking.html */
+
+
+.container-satu{
+  /* maxwidth: 800px; */
+  /* margin: 50px auto; */
+  background-color: #ffffff;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  overflow: hidden;
+}
+
+.kolom-utama{
+  
+  max-width: 600px;
+
+  flex: 3;
+
+}
+
+.sidebar-satu{
+  float: left;
+  margin-right: 10px;
+  flex: 2;
+
+}
+
+.sidebar-dua{
+  float: right;
+  margin-left: 10px;
+
+  flex: 1;
+
+}
+
+/* Akhir booking.html */
+
+/* overview.html */
+
+#overdish a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+#overdish li{
+  display: inline;
+  list-style-type: none;
+  margin-right: 30px;
+}
+
+#overdish{
+  align-content: center;
+  margin-left: 10%;
+  margin-bottom: 10px;
+  max-width: 80%;
+}
+
+#overdish h2{
+text-align: center;
+}
+
+.container-tiga{
+  max-width: 800px;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.thumbnail{
+  width: 20%;
+}
+
+.thumbnail img{
+  width: 100%;
+}
+
+.thumb{
+  width: 266.5px;
+  float: left;
+  border: 2px solid white;
+  box-sizing: border-box;
+}
+
+.thumb:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+
+
+
+
+/* Overlay */
+.overlay{
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-align: center;
+  background: rgba(0, 0, 0, 0);
+  z-index: 9999;
+  padding: 50px;
+}
+
+.overlay:target{
+  width: auto;
+  height: auto;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6);
+  transition: .8s;
+}
+
+.overlay img{
+  max-height: 100%;
+  margin-top: 10px;
+  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
+}
+
+.overlay:target img{
+  animation: Fade 1s;
+}
+
+.overlay .close{
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  /* margin-top: -100px; */
+  margin-left: -20px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  background-color:  red;
+  border: 1px solid white;
+  line-height: 14px;
+  padding: 5px;
+  opacity: 0;
+  border-radius: 5px;
+}
+
+.overlay:target .close{
+  animation: SlideDownFade .5s .5s forwards;
+}
+
+/* Navigasi */
+.next, .prev{
+  width: 75px;
+  height: 93px;
+  background-image: url(../image/next.png);
+  position: absolute;
+  /* text-indent: -9999px; */
+  top: 50%;
+  margin-left: 50px;
+  opacity: 0;
+}
+
+.prev{
+  background-image: url(../image/previous.png);
+  margin-left: -150px;
+}
+
+.overlay:target .next,
+.overlay:target .prev{
+  animation: Fade .5s .5 forwards;
+}
+
+
+/* resto.html */
+
+
+.contain{
+  width: 500px;
+  margin: 10px auto;
+  border: 5px solid white;
+  /* overflow: auto; */
+  display: flex;
+  
+}
+
+.full{
+  width: 500px;
+}
+
+/* .thumb{
+  float: left;
+  border: 2px solid white;
+  box-sizing: border-box;
+} */
+
+.thumb:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+@keyframes fadeIn{
+  to{
+      opacity: 1;
+  }
+}
+
+.fade{
+  opacity: 0;
+  animation: fadeIn 0.5s forwards;
+}
+
+.active{
+  opacity: 0.5;
+  z-index: -999999;
+}
+
+
+/* Akhir resto.html */
+
+
+/* Animasi */
+@keyframes ZoomDanFade{
+  0%{
+      transform: scale(0);
+      opacity: 0;
+  }
+  100%{
+      transform: scale(1);
+      opacity: 1;
+  }
+}
+
+@keyframes SlideDownFade{
+  0%{
+      margin-top: -20px;
+      opacity: 0;
+  }
+  100%{
+      margin-top: 0;
+      opacity: 1;
+  }
+}
+
+@keyframes Fade{
+  0%{
+      opacity: 0;
+  }
+  100%{
+      opacity: 1;
+  }
+}
+
+
+/* Akhir overview.html */
+
+@media screen and (max-width: 1000px) {
+  #content,
+  aside {
+      width: 100%;
+      padding: 0;
+  }
+
+}
