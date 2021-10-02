@@ -2,5 +2,5 @@
 
 Repository for Hacktoberfest 2021
 
-Happy coding
+Happy coding :)
 Spread The Open Source
