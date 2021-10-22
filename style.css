@@ -52,3 +52,8 @@ nav {
     height: 300px;
     padding-left: 25px;
   }
+
+  .img-padded {
+    padding-bottom: 20px;
+    width: 150px;
+  }
