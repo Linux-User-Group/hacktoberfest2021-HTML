@@ -46,3 +46,9 @@ nav {
     padding: 10px;
     font-weight: bold;
   }
+
+  .padded {
+    width: 300px;
+    height: 300px;
+    padding-left: 25px;
+  }
