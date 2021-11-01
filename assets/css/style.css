@@ -30,6 +30,7 @@
 	width: 300px;
 	height: 300px;
 }
+
 footer{
     position: relative;
     width: 100%;
@@ -87,4 +88,66 @@ footer p{
 }
 .text-mute{
 	color: #49403c;
+
+.nav-container{
+	width: 100%;
+	margin: 0 auto;
+	
+}
+header{
+	background: #556aa5;
+}
+.logo{
+	text-decoration: none;
+	display: inline-block;
+	padding: 40px;
+	font-size: 25px;
+	color: white;
+}
+.logo:hover{
+	color: rgb(196, 193, 193);
+}
+header::after{
+	content: '';
+	display: table;
+	clear: both;
+}
+nav{
+	float: right;
+	padding: 30px;
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+nav li{
+	display: inline-block;
+	margin-left: 70px;
+	padding-top: 20px;
+	position: relative;
+}
+nav a{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+nav a:hover{
+	color: rgb(196, 193, 193);
+}
+nav a::before{
+	content: '';
+	display: block;
+	height: 5px;
+	width: 100%;
+	background-color: rgb(196, 193, 193);
+	position:absolute;
+	top: 0;
+	width: 0%;
+	transition: all ease-in-out 250ms;
+}
+nav a:hover::before{
+width: 100%;
+
 }
